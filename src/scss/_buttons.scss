@@ -1,0 +1,28 @@
+.btn {
+  &.btn-primary {
+    color: $btn-color;
+  
+    &:hover, &:active, &:focus {
+      color: $btn-color;
+    }
+  }
+
+  &.btn-link {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding-inline: 0;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  &.btn-back {
+    border-color: $placeholder-color;
+    color: $placeholder-color;
+
+    &:hover, &:active, &:focus {
+      border-color: $text-color;
+      color: $text-color;
+    }
+  }
+}

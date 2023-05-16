@@ -1,0 +1,20 @@
+.form-switch {
+  padding-left: 1.25em + $form-switch-width;
+
+  .form-check-input {
+    background-color: $color-grey;
+    border-color: $color-grey;
+    height: $form-switch-height;
+    margin-top: 0.125em;
+
+    &:checked {
+      background-color: $primary;
+    }
+  }
+
+  .form-check-label {
+    font-size: $form-switch-label-size;
+    color: $form-switch-label-color;
+    font-weight: 500;
+  }
+}
